@@ -1,10 +1,10 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R3_density_gene_correlation.R
+# R03_density_gene_correlation.R
 # 功能：对每个样本的每个基因，计算 SCT残差 vs 密度 的 Spearman 相关
 # 输入：R2 输出的 .rds 文件（22个样本）
 # 输出：每样本一个 density_gene_correlations.csv + 全局汇总
-# Run (EN): Rscript R3_density_gene_correlation.R
+# Run (EN): Rscript R03_density_gene_correlation.R
 #   Purpose: per gene per sample, Spearman correlation of SCT residual vs density.
 #   Paths configured via env vars (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================================

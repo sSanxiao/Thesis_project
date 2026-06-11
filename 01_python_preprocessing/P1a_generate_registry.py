@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ============================================================
-P1_generate_registry.py
+P1a_generate_registry.py
 
 Generate sample_registry.json: a unified configuration for all 22
 Xenium samples (6 datasets), recording per-sample path, species,
@@ -12,7 +12,7 @@ P1/P2 preprocessing and the R pipeline.
 
 Input : raw Xenium sample folders under DATA_DIR
 Output: sample_registry.json (written next to this script)
-Run   : python3 P1_generate_registry.py
+Run   : python3 P1a_generate_registry.py
 
 功能: 生成 sample_registry.json (22个样本的统一配置文件)
 ============================================================

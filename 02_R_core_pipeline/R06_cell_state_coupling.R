@@ -1,10 +1,10 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R6_cell_state_coupling.R
+# R06_cell_state_coupling.R
 # 功能：拆解 density-gene 关联的来源（composition vs regulation effect）
 # 输入：R2 的 .rds + R4 的 filtered_density_genes.csv
 # 输出：分层分析结果 + 细胞周期关联 + 诊断图
-# Run (EN): Rscript R6_cell_state_coupling.R
+# Run (EN): Rscript R06_cell_state_coupling.R
 #   Purpose: decompose density-gene association into composition vs regulation effects.
 #   Paths configured via env vars (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================================

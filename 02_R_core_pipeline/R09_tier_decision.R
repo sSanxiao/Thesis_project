@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R9_tier_decision.R
+# R09_tier_decision.R
 # 功能: 基于 R3/R4/R7/R8 的结果 + 重新扫描 22 个 R2 .rds 的 signature AUC,
 #       对 3 个 "局部升舱位 Tier I" 候选方向做可行性评估, 输出 Tier 判断报告
 #
@@ -16,7 +16,7 @@
 #   - reproducibility_summary.csv
 #   - TIER_DECISION_REPORT.txt / TIER_DECISION_REPORT.json
 #
-# Run: Rscript R9_tier_decision.R   (paths via env vars; see config/paths.R)
+# Run: Rscript R09_tier_decision.R   (paths via env vars; see config/paths.R)
 # ============================================================================
 
 suppressPackageStartupMessages({

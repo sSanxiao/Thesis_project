@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ============================================================
-P1_gene_intersection.py
+P1c_gene_intersection.py
 
 Cross-dataset panel gene-intersection analysis: for each species,
 compute pairwise panel overlaps, common gene lists, and per-dataset
@@ -10,7 +10,7 @@ unique genes (handling human/mouse case mismatch).
 
 Input : the 22 filtered_matrix.h5 files produced by P1
 Output: <RESULTS_DIR>/P1_Results/Gene_Intersection/
-Run   : python3 P1_gene_intersection.py
+Run   : python3 P1c_gene_intersection.py
 
 功能: 跨数据集 panel 基因交集分析
 旧输出目录: Results_New/P1_Results/Gene_Intersection/
@@ -86,7 +86,7 @@ def intersection_matrix(gene_dict):
 
 def main():
     print("=" * 65)
-    print("  P1_gene_intersection.py — 跨数据集基因交集分析")
+    print("  P1c_gene_intersection.py — 跨数据集基因交集分析")
     print("=" * 65)
 
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -351,7 +351,7 @@ def main():
     report_path = os.path.join(OUT_DIR, "full_intersection_report.txt")
     with open(report_path, "w", encoding="utf-8") as rpt:
         rpt.write("跨数据集基因交集分析报告\n")
-        rpt.write(f"生成时间: P1_gene_intersection.py\n")
+        rpt.write(f"生成时间: P1c_gene_intersection.py\n")
         rpt.write(f"样本数: {len(sample_genes)}\n")
         rpt.write("=" * 60 + "\n\n")
 

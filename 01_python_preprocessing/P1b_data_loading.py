@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ============================================================
-P1_data_loading.py
+P1b_data_loading.py
 
 Load each sample's official cell_feature_matrix.h5, drop control
 features and empty cells, and emit a standard 10x-format h5 plus a
@@ -13,7 +13,7 @@ Output: <RESULTS_DIR>/P1_Results/<sample>/
           - filtered_matrix.h5    (standard 10x format, read by Seurat::Read10X_h5)
           - cell_metadata.csv     (cell_id + coords + QC columns, read by R fread)
         + ALL_SAMPLES_P1_QC.csv   (22-row summary)
-Run   : python3 P1_data_loading.py
+Run   : python3 P1b_data_loading.py
 
 功能: 从官方 cell_feature_matrix.h5 加载数据，过滤对照feature
       和空细胞，输出标准10x格式h5 + 元数据csv
@@ -258,7 +258,7 @@ def main():
     t_global = time.time()
 
     print("=" * 65)
-    print("  P1_data_loading.py — 数据加载、过滤、标准化输出")
+    print("  P1b_data_loading.py — 数据加载、过滤、标准化输出")
     print("=" * 65)
     print(f"  Registry:  {REGISTRY_PATH}")
     print(f"  Output:    {RESULT_DIR}")

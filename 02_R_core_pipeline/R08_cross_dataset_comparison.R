@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # ============================================================
 # R8: 跨数据集 / 跨物种 density gene 可重复性分析
-# (EN) R8_cross_dataset_comparison: cross-dataset / cross-species
+# (EN) R08_cross_dataset_comparison: cross-dataset / cross-species
 #      reproducibility of density genes. Paths via env vars
 #      (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================

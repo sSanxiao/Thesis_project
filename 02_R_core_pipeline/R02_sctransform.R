@@ -1,10 +1,10 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R2_sctransform.R
+# R02_sctransform.R
 # 功能：对每个样本做SCTransform标准化 + PCA + UMAP + 聚类
 # 输入：R1输出的 .rds 文件（22个样本）
 # 输出：更新后的 .rds 文件 + 诊断图 + QC汇总
-# Run (EN): Rscript R2_sctransform.R
+# Run (EN): Rscript R02_sctransform.R
 #   Purpose: per-sample SCTransform normalization + PCA + UMAP + clustering.
 #   Paths configured via env vars (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================================

@@ -1,10 +1,10 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R5_visualization.R
+# R05_visualization.R
 # 功能：生成 density-gene 关联的论文级图
 # 输入：R2的rds + R4的filtered_density_genes.csv
 # 输出：散点图（hex+box）、跨样本热力图、棒棒糖图、代表性空间图
-# Run (EN): Rscript R5_visualization.R
+# Run (EN): Rscript R05_visualization.R
 #   Purpose: publication-grade figures of density-gene associations.
 #   Paths configured via env vars (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================================

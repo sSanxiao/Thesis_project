@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R1_build_seurat.R
+# R01_build_seurat.R
 # 功能：从P1和P2的输出构建Seurat对象
 # 输入：
 #   - P1: filtered_matrix.h5 + cell_metadata.csv (每样本)
@@ -9,7 +9,7 @@
 # 输出：
 #   - 每样本一个 .rds 文件 (Seurat对象)
 #   - ALL_SAMPLES_R1_QC.csv (22行汇总表)
-# Run (EN): Rscript R1_build_seurat.R
+# Run (EN): Rscript R01_build_seurat.R
 #   Purpose: build one Seurat object per sample from the P1/P2 outputs,
 #            attaching the 5 cell-density estimators as cell metadata.
 #   Paths configured via env vars (DATA_DIR/RESULTS_DIR); see config/paths.R.

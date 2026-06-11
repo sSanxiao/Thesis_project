@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # ============================================================
 # R7: 样本内综合 + 数据集内跨样本一致性
-# (EN) R7_sample_integration: per-sample integration + within-dataset
+# (EN) R07_sample_integration: per-sample integration + within-dataset
 #      cross-sample consistency of density genes. Paths via env vars
 #      (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================

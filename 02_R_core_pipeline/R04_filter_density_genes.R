@@ -1,10 +1,10 @@
 #!/usr/bin/env Rscript
 # ============================================================================
-# R4_filter_density_genes.R
+# R04_filter_density_genes.R
 # 功能：从R3的相关系数表中筛选density genes，分级标记，生成诊断图
 # 输入：R3输出的 density_gene_correlations.csv（22个样本）
 # 输出：filtered_density_genes.csv + 诊断图 + 全局汇总
-# Run (EN): Rscript R4_filter_density_genes.R
+# Run (EN): Rscript R04_filter_density_genes.R
 #   Purpose: filter and tier density genes from the R3 correlation tables; diagnostics.
 #   Paths configured via env vars (DATA_DIR/RESULTS_DIR); see config/paths.R.
 # ============================================================================

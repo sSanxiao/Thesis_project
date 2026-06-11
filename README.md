@@ -89,15 +89,19 @@ reproduction.
 ### 3. Run in order
 
 ```bash
-# Preprocessing
-python 01_python_preprocessing/P1_generate_registry.py
-python 01_python_preprocessing/P1_data_loading.py
-python 01_python_preprocessing/P1_gene_intersection.py
+# Preprocessing (run in this order)
+python 01_python_preprocessing/P1a_generate_registry.py
+python 01_python_preprocessing/P1b_data_loading.py
+python 01_python_preprocessing/P1c_gene_intersection.py
 python 01_python_preprocessing/P2_density_calculation.py
 
-# R pipeline (run R1 → R21d in order)
-Rscript 02_R_core_pipeline/R1_build_seurat.R
+# R pipeline (run R01 → R21d in order)
+Rscript 02_R_core_pipeline/R01_build_seurat.R
 # ... etc
+
+# Note: numeric prefixes are zero-padded (R01..R09) and the preprocessing
+# steps use a/b/c suffixes so that the on-disk/file-listing order matches
+# the intended execution order.
 ```
 
 ---
